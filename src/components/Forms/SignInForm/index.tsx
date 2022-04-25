@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { useNavigation } from '@react-navigation/native';
-
+import auth from "@react-native-firebase/auth";
 import { FooterButton } from '@components/Controllers/FooterButton';
 import { Button } from '@components/Controllers/Button';
 import { Input } from '@components/Controllers/Input';
 import { Form, Title, Footer } from './styles';
+import { Alert } from 'react-native';
 
 export function SignInForm() {
   const [email, setEmail] = useState('');
@@ -15,10 +16,16 @@ export function SignInForm() {
 
   function handleSignIn() {
     setIsLoading(true);
+    auth().signInWithEmailAndPassword(email, password)
+      .then(() => {})
+      .catch((error) => console.log(error))
+      .finally(() => setIsLoading(false));
   }
 
   function handleForgotPassword() {
-
+    auth().sendPasswordResetEmail(email)
+      .then(() => Alert.alert("Senha", "E-mail enviado para recuperar a senha"))
+      .catch((error) => console.log(error));
   }
 
   return (
