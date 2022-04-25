@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "699690033359",
-    "project_id": "helpdesk-3b5c7",
-    "storage_bucket": "helpdesk-3b5c7.appspot.com"
+    "project_number": "151047715447",
+    "project_id": "helpdesk-771cd",
+    "storage_bucket": "helpdesk-771cd.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:699690033359:android:e7268c2772148ff36157ba",
+        "mobilesdk_app_id": "1:151047715447:android:a6696eadc25bcd5b782472",
         "android_client_info": {
           "package_name": "com.helpdesk"
         }
       },
       "oauth_client": [
         {
-          "client_id": "699690033359-1o9tnnc4eok0v86vo3avvfri2fp08hhk.apps.googleusercontent.com",
+          "client_id": "151047715447-km18mg6t66koko5l5mtcgh8qc9kue0k7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCrTEUlijUpeEvERXH24lhLXXSQv3oc8nM"
+          "current_key": "AIzaSyDne6LT6-tVk-DNh19o5AYlY9zdWB_fNik"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "699690033359-1o9tnnc4eok0v86vo3avvfri2fp08hhk.apps.googleusercontent.com",
+              "client_id": "151047715447-km18mg6t66koko5l5mtcgh8qc9kue0k7.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
